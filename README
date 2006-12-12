@@ -1,0 +1,2 @@
+This module adds a command to "Cleanup".  The command will search through the library and all playlists and remove any tracks that can't be found.
+

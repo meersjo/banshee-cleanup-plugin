@@ -1,0 +1,11 @@
+<ui>
+    <menubar name="MainMenu">
+        <menu name="MusicMenu" action="MusicMenuAction">
+            <placeholder name="MusicMenuAdditions">
+                <separator />
+                <menuitem name="Cleanup" action="CleanupAction" />
+                <separator />
+            </placeholder> 
+      </menu>
+    </menubar>
+</ui>
