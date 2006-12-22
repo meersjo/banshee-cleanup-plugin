@@ -37,6 +37,17 @@ using System.IO;
 using System.Threading;
 using Mono.Unix; 
  
+public static class PluginModuleEntry
+{
+    public static Type [] GetTypes()
+    {
+        return new Type [] {
+            typeof(Banshee.Plugins.Cleanup.CleanupPlugin)
+        };
+    }
+}
+ 
+ 
 namespace Banshee.Plugins.Cleanup
 {
     public class CleanupPlugin : Banshee.Plugins.Plugin
